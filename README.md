@@ -2,6 +2,8 @@
 
 # Customized to be used with Android maps utils
 
+[![](https://jitpack.io/v/devjn/fesimplegeoprox-android-maps.svg)](https://jitpack.io/#devjn/fesimplegeoprox-android-maps)
+
 FeProxiMap is a lightweight collection of user-supplied geographical points which supports fast proximity search by search within a radius or by rectangle.  
 
 By "lightweight" and "fast" here, I mean that it's midway between linear search (lightweight but slow: for a reasonable search, this is between 100 and 1000 times faster) and GeoRedis (which is blazingly fast but heavier weight).  Also, the documentation on GeoRedis says that its answers are approximate, while these are precisely as exact as LatLng will give.
