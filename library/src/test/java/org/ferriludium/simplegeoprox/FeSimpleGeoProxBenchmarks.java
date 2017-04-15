@@ -1,8 +1,5 @@
 package org.ferriludium.simplegeoprox;
 
-import android.annotation.TargetApi;
-import android.os.Build;
-
 import com.google.android.gms.maps.model.LatLng;
 import com.javadocmd.simplelatlng.util.LengthUnit;
 
@@ -33,7 +30,6 @@ import java.util.Collection;
  ******************************************************************************
  */
 
-@TargetApi(Build.VERSION_CODES.KITKAT)
 public class FeSimpleGeoProxBenchmarks {
 	private class Results {
 		public double radius;

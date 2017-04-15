@@ -1,4 +1,11 @@
+apply plugin: 'eclipse'
 apply plugin: 'java'
+
+// Set source and target to Java 7
+compileJava {
+    targetCompatibility = 1.7
+    sourceCompatibility = 1.7
+}
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
