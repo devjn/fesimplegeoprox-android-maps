@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fesimplegeoprox.iml" filepath="$PROJECT_DIR$/.idea/modules/fesimplegeoprox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/library/library.iml" filepath="$PROJECT_DIR$/.idea/modules/library/library.iml" />
     </modules>
   </component>
 </project>
